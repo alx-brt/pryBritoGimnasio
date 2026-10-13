@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInscripcion));
             gboDatosPersonales = new GroupBox();
             label2 = new Label();
             lblNombre = new Label();
@@ -290,6 +291,7 @@
             Controls.Add(gboPlan);
             Controls.Add(gboDatosPersonales);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "frmInscripcion";
             StartPosition = FormStartPosition.CenterScreen;
