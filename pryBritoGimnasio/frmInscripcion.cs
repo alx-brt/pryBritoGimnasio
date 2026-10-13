@@ -31,7 +31,10 @@ namespace pryBritoGimnasio
         }
     
 
-    string[] arrayClientes = new string[3];
+        string[] arrayClientes = new string[3];
+        int indiceClientes = 0;
+
+
 
     }
 }
